@@ -1,0 +1,53 @@
+# CHANGELOG
+
+All notable changes to this project are documented here.  
+This changelog mirrors the commit history from GitHub.
+
+---
+
+## [1.0.0] - 2025-10-18
+### Added
+- Initial project setup with Expo.
+- Created `App.js` base structure.
+- Added basic layout for menu input fields and dish list.
+
+---
+
+## [1.1.0] - 2025-10-19
+### Added
+- Implemented splash screen with fade-in animation.
+- Added navigation logic to move from splash to main app screen.
+- Updated background color and centered text for improved UI.
+
+---
+
+## [1.2.0] - 2025-10-20
+### Added
+- Added “Add New Dish” feature for chefs.
+- Enabled display of added dishes using `FlatList`.
+- Added form validation to prevent empty fields.
+- Introduced filter options for dish categories.
+
+---
+
+## [1.3.0] - 2025-10-20
+### Updated
+- Improved layout and typography for better readability.
+- Adjusted button styling for consistency with app theme.
+- Fixed issue with uncentered elements on smaller screens.
+
+---
+
+## [1.4.0] - 2025-10-20
+### Added
+- Implemented a total screen that sums up the total number of dishes and money.
+- Added Logout button (returns user to Splash screen).
+- Finalized single-file navigation and UI polish.
+
+---
+
+## [1.5.0] - 2025-10-21
+### Final Touches
+- Create a link to the git repository.
+- Created `CHANGELOG.md` to mirror GitHub commits.
+- Tested app functionality on emulator and Android device.
