@@ -1,16 +1,14 @@
 # Chef's Menu App
 
 ## Overview
-Chef's Menu App is a React Native application built with Expo.  
-It allows a chef to add new dishes, view them, and simulate card payments.  
-This app was developed as part of **POE 2** for the IIE module.
-
+Chef's Menu App is a React Native application built with Expo.
+It allows a chef to add new dishes, view them, and simulate card payments.
 
 ## Features
 * Splash screen with fade-in animation
 * Add dish form (name, description, and price)
 * FlatList display of all dishes added
-* Payment screen with card input fields
+* Total Screen where the Chef can count the total number of dishes sold and the amount,
 * Logout button that returns the user to the splash screen
 * Clean, consistent, and user-friendly UI
 
@@ -21,9 +19,9 @@ To run the app locally:
 git clone <your-repository-url>
 cd ChefMenuApp
 npm install
-npx expo 
+npx expo
 
-## Reference 
+## Reference
 * Expo Documentation: https://docs.expo.dev/
 
 * React Native Documentation: https://reactnative.dev/docs
