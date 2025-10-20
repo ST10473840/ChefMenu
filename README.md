@@ -2,7 +2,7 @@
 
 ## Overview
 Chef's Menu App is a React Native application built with Expo.
-It allows a chef to add new dishes, view them, and simulate card payments.
+It allows a chef to add new dishes, view them, and calculates the total number of dishes and money made.
 
 ## Features
 * Splash screen with fade-in animation
