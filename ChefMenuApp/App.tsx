@@ -115,7 +115,7 @@ if (screen === 'splash') {
 
         <TextInput
           placeholder="Dish Name"
-          placeholderTextColor="#ffffffff"
+          placeholderTextColor="#8d8585ff"
           style={styles.input}
           value={dish}
           onChangeText={setDish}
