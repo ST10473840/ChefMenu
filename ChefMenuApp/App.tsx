@@ -17,7 +17,7 @@ const styles = StyleSheet.create({
 
   addBtn: { backgroundColor: '#4CAF50', padding: 12, borderRadius: 8, alignItems: 'center', marginTop: 10 },
 
-  infoText: { color: '#999', textAlign: 'center', marginVertical: 2 },
+  infoText: { color: '#555', textAlign: 'center', marginVertical: 2 },
   filterBtn: { padding: 8, backgroundColor: '#555', borderRadius: 8, minWidth: 70, alignItems: 'center' },
   activeFilter: { backgroundColor: '#ff914d' },
 
@@ -100,7 +100,6 @@ export default function App() {
 if (screen === 'splash') {
     return (
       <View style={[styles.container, { justifyContent: 'center', alignItems: 'center', backgroundColor: '#ff914d' }]}>
-        {/* Replace with your logo if you have one */}
         <Image source={{ uri: 'https://cdn-icons-png.flaticon.com/512/1046/1046784.png' }} style={{ width: 120, height: 120, marginBottom: 20 }} />
         <Text style={[styles.title, { color: '#fff' }]}>Chef's Menu App</Text>
         <Text style={[styles.subtitle, { color: '#fff' }]}>Loading...</Text>
@@ -115,7 +114,7 @@ if (screen === 'splash') {
 
         <TextInput
           placeholder="Dish Name"
-          placeholderTextColor="#8d8585ff"
+          placeholderTextColor="#aaa"
           style={styles.input}
           value={dish}
           onChangeText={setDish}
